@@ -1,0 +1,315 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+}
+/* main section */
+.main-div{
+    margin-top: 140px;
+}
+/* aboutme section */
+.heroImg{
+    width: 370px;
+}
+.hero-wrapper {
+    position: relative;
+}
+.pos-div i {
+    position: absolute;
+    font-size: 2.5vw;
+}
+.pos-div i:nth-child(1) { top: 22%; left: 52%; color: #F7E025; }
+.pos-div i:nth-child(2) { top: 31%; left: 44%; color: #E5532D; }
+.pos-div i:nth-child(3) { top: 24%; left: 35%; color: #7CB367; }
+.pos-div i:nth-child(4) { top: 42%; left: 33%; color: #0874BC; }
+.pos-div i:nth-child(5) { top: 54%; left: 33%; color: #7442BD; }
+.pos-div i:nth-child(6) { top: 40%; left: 43%; color: #CE6B9C; }
+.pos-div i:nth-child(7) { top: 51%; left: 25%; color: #50D6FF; }
+.pos-div i:nth-child(8) { top: 70%; left: 34%; color: #55AD47; }
+
+@media (max-width: 1400px) {
+    .pos-div i:nth-child(1) { top: 14% !important; left: 43% !important;} 
+    .pos-div i:nth-child(4) { top: 40% !important; left: 22% !important;}
+    .pos-div i:nth-child(5) { top: 64% !important; left: 25% !important;}
+    .pos-div i:nth-child(6) { top: 38% !important; left: 33% !important;}
+}
+
+@media (max-width: 1200px) {
+    .pos-div i:nth-child(1) { top: 33% !important; left: 14% !important;} 
+    .pos-div i:nth-child(2) { top: 39% !important; left: 22% !important;}
+    .pos-div i:nth-child(3) { top: 31% !important; left: 27% !important;}
+    .pos-div i:nth-child(4) { top: 45% !important; left: 7% !important;}
+    .pos-div i:nth-child(5) { top: 54% !important; left: 10% !important;}
+    .pos-div i:nth-child(6) { top: 58% !important; left: 1% !important;}
+    .pos-div i:nth-child(7) { top: 65% !important; left: 13% !important;}
+    .pos-div i:nth-child(8) { top: 72% !important; left: 19% !important;}
+}
+@media (max-width: 991px) {
+    .pos-div i:nth-child(1) { top: 33% !important; left: 14% !important;} 
+    .pos-div i:nth-child(2) { top: 39% !important; left: 16% !important;}
+    .pos-div i:nth-child(3) { top: 36% !important; left: 3% !important;}
+    .pos-div i:nth-child(4) { top: 42% !important; left: 7% !important;}
+    .pos-div i:nth-child(5) { top: 47% !important; left: -5% !important;}
+    .pos-div i:nth-child(6) { top: 55% !important; left: -7% !important;}
+    .pos-div i:nth-child(7) { top: 65% !important; left: -5% !important;}
+    .pos-div i:nth-child(8) { top: 72% !important; left: 5% !important;}
+}
+@media (max-width: 767px) {
+    .pos-div i {
+        font-size: 25px;
+    }
+    .pos-div i:nth-child(1) { top: 37% !important; left: 33% !important;} 
+    .pos-div i:nth-child(2) { top: 41% !important; left: 25% !important;}
+    .pos-div i:nth-child(3) { top: 35% !important; left: 24% !important;}
+    .pos-div i:nth-child(4) { top: 52% !important; left: 21% !important;}
+    .pos-div i:nth-child(5) { top: 44% !important; left: 17% !important;}
+    .pos-div i:nth-child(6) { top: 60% !important; left: 18% !important;}
+    .pos-div i:nth-child(7) { top: 67% !important; left: 25% !important;}
+    .pos-div i:nth-child(8) { top: 54% !important; left: 12% !important;}
+}
+@media (max-width: 576px) {
+    .pos-div i {
+        font-size: 20px;
+    }
+    .pos-div i:nth-child(1) { top: 32% !important; left: 24% !important;} 
+    .pos-div i:nth-child(2) { top: 27% !important; left: 25% !important;}
+    .pos-div i:nth-child(3) { top: 30% !important; left: 16% !important;}
+    .pos-div i:nth-child(4) { top: 37% !important; left: 14% !important;}
+    .pos-div i:nth-child(5) { top: 43% !important; left: 8% !important;}
+    .pos-div i:nth-child(6) { top: 32% !important; left: 8% !important;}
+    .pos-div i:nth-child(7) { top: 24% !important; left: 15% !important;}
+    .pos-div i:nth-child(8) { top: 39% !important; left: 5% !important;}
+}
+@media (max-width: 416px) {
+    .pos-div i {
+        font-size: 20px;
+    }
+    .pos-div i:nth-child(1) { top: 31% !important; left: 20% !important;} 
+    .pos-div i:nth-child(2) { top: 38% !important; left: 18% !important;}
+    .pos-div i:nth-child(3) { top: 27% !important; left: 10% !important;}
+    .pos-div i:nth-child(4) { top: 35% !important; left: 10% !important;}
+    .pos-div i:nth-child(5) { top: 42% !important; left: 7% !important;}
+    .pos-div i:nth-child(6) { top: 31% !important; left: 1% !important;}
+    .pos-div i:nth-child(7) { top: 23% !important; left: 21% !important;}
+    .pos-div i:nth-child(8) { top: 20% !important; left: 8% !important;}
+}
+/* animate bounce scroll section */
+.animate-bounce {
+    background-color: #482526;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed; 
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    animation: bounce 2s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+/* experience section */
+.Experience-sec{
+    margin-top: 100px;
+}
+.brototype{
+    display: flex;
+    margin-top: 50px;
+}
+  
+.exp-img {
+    color: white;
+    text-shadow: 0 1px 0 #ff0000;
+  
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 5%,
+      #112 60%,
+      #213 95%
+    );
+  
+    border: solid 5px transparent;
+    border-radius: 2em;
+    --gradient-border: conic-gradient(
+      from var(--border-angle),
+      transparent 25%,
+      #08f,
+      #f03 99%,
+      transparent
+    );
+  
+    background:
+      var(--main-bg) padding-box,
+      var(--gradient-border) border-box,
+      var(--main-bg) border-box;
+  
+    background-position: center center;
+    animation: bg-spin 3s linear infinite;
+}
+  
+.exp-img:hover {
+    animation-play-state: paused;
+}
+  
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+  
+@keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+}
+  
+.exp-img img{
+    border-radius: 28px;
+}
+/* skills section */
+.custom-progress-bar {  
+    text-align: left;  
+    margin-left: 20px;
+    color: #000;          
+    font-weight: bolder;
+}
+#skills{
+    margin-top: 100px;
+}
+.rotate-skill{
+    animation: rotation 6s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* projects section */
+#projects{
+    margin-top: 100px;
+}
+.project1{
+    width: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.project1 img{
+    border-radius: 5px;
+    height: 200px;
+    max-width: 100%;
+}
+.project1 a{
+    color: #08f;
+}
+/* contact section */
+#contact{
+    margin-top: 100px;
+    background-color: #fff;
+    position: relative;
+    z-index: 4;
+}
+.contact-img{
+    position: relative;
+}
+.tab-icons a{
+    font-size: 40px;
+}
+.tab-icons {
+    a:nth-child(1) {
+        position: absolute;
+        top: 35%;
+        left: 31%;
+    }
+    a:nth-child(2) {
+        position: absolute;
+        top: 52%;
+        left: 41%;
+    }
+    a:nth-child(3) {
+        position: absolute;
+        top: 32%;
+        left: 48%;
+    }
+    a:nth-child(4) {
+        position: absolute;
+        top: 48%;
+        left: 60%;
+    }
+}
+@media (min-width: 250px){
+    .tab-icons a{
+        font-size: 30px;
+    }
+}
+@media (min-width: 521px){
+    .tab-icons a{
+        font-size: 40px;
+    }
+}
+@media (min-width: 768px){
+    .tab-icons a{
+        font-size: 30px;
+    }
+    .tab-icons a:nth-child(1){
+        top: 13%;
+    }
+    .tab-icons a:nth-child(2){
+        top: 38%;
+    }
+    .tab-icons a:nth-child(3){
+        top: 21%;
+    }
+    .tab-icons a:nth-child(4){
+        top: 40%;
+    }
+}
+@media (min-width: 992px){
+    .tab-icons a{
+        font-size: 40px;
+    }
+    .tab-icons a:nth-child(1){
+        top: 52%;
+        left: 33%;
+    }
+    .tab-icons a:nth-child(2){
+        top: 28%;
+        left: 28%;
+    }
+    .tab-icons a:nth-child(3){
+        top: 28%;
+        left: 63%;
+    }
+    .tab-icons a:nth-child(4){
+        top: 52%;
+        left: 55%;
+    }
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 80px 20px 20px 20px;
+    position: relative;
+    z-index: 4;
+    background-color: #fff;
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/fav-icon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- header section -->
+    <header class="px-4">
+        <!-- navbar section -->
+        <nav class="navbar navbar-expand-md" id="navbar-first">
+            <div class="container-fluid d-flex justify-content-between">
+                <a href="#" class="navbar-brand fs-1">Rahul</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav nav-pills gap-md-4 gap-2">
+                        <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#Experience-me" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main section -->
+    <main class="container main-div">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-first" data-bs-offset="0" tabindex="0" class="scrollspy">
+            <!-- aboutme section -->
+            <section class="d-flex align-items-center flex-md-row flex-column main-div" id="aboutme">
+                <div class="container">
+                    <h1 class="fs-1 mb-3">My Name is Rahul</h1>
+                    <p class="fs-4 mb-4">I'm a results-driven Software Engineer with a passion for building scalable, high-performance applications. I specialize in turning complex problems into clean, efficient code that delivers real business value.</p>
+                    <a href="#contact"><button class="btn btn-primary" type="button" target>Contact Me</button></a>
+                </div>
+                <div class="container hero-wrapper">
+                    <img src="./assets/images/main.webp" alt="hero-Image" class="img-fluid d-block ms-auto heroImg">
+                    <div class="pos-div">
+                        <i class="fa-brands fa-js fa-fade fa-2xl"></i>
+                        <i class="fa-brands fa-html5 fa-fade fa-2xl"></i>
+                        <i class="fa-brands fa-node fa-fade fa-2xl"></i>
+                        <i class="fa-brands fa-css3 fa-fade fa-2xl"></i>
+                        <i class="fa-brands fa-bootstrap fa-fade fa-2xl"></i>
+                        <i class="fa-brands fa-sass fa-beat-fade fa-2xl"></i>
+                        <i class="fa-brands fa-react fa-beat-fade fa-2xl"></i>
+                        <i class="fa-solid fa-database fa-beat-fade fa-2xl"></i>
+                    </div>
+                </div>            
+            </section>     
+            <!-- scroll-down button -->
+            <div class="animate-down">
+                <a href="#contact" class="animate-bounce"><i class="fas fa-arrow-down fa-lg" style="color:#fff"></i></a>
+            </div>   
+            <!-- Experience section -->
+            <section class="container Experience-sec">
+                <div class="row">
+                    <div class="exp-section col-12 col-lg-6" id="Experience-me">
+                        <h2 class="fs-1">Experience</h2>
+                        <div class="brototype">
+                            <div class="broto-img">
+                                <a href="https://www.brototype.com/" target="_blank"><img src="./assets/images/brototype.webp" alt="brototype" class="img-fluid" width="100px"></a>
+                            </div>
+                            <div class="broto-content ms-3">
+                                <h4><a href="https://www.brototype.com/" target="_blank" class="fs-5">Brototype</a></h4>
+                                <h6>1 yr 7 mos</h6>
+                                <small class="text-secondary">Work from home</small>
+                            </div>
+                        </div>
+                        <div class="exp mt-5">
+                            <h3>MERN Stack Developer</h3>
+                            <h6>Internship</h6>
+                            <small class="text-secondary">March 2024 - Present</small>
+                            <p><strong>Skills - </strong>HTML · CSS · Sass · Bootstrap · NodeJs · ExpressJs · MongoDB · Figma · JavaScript · JQuery · ReactJs</p>
+                        </div>
+                        <div class="exp mt-5">
+                            <h3>Senior Placement Coordinator</h3>
+                            <h6>Full-time</h6>
+                            <small class="text-secondary">Feb 2024 - Feb 2025</small>
+                            <p><strong>Skills - </strong>Strategic Communications · Job Placements · Report Writing · Team Coordination · Interpersonal Skills · Databases · Technical Support · Job Skills · Feedback Management</p>
+                        </div>
+                        <div class="exp mt-5">
+                            <h3>Placement Coordinator</h3>
+                            <h6>Internship</h6>
+                            <small class="text-secondary">Oct 2023 - Feb 2024</small>
+                            <p><strong>Skills - </strong>Strategic Communications · Job Placements · Report Writing · Performance Measurement · Data Analysis · Team Coordination · Lead Generation · Google Sheets · Management · Cold Calling · Reporting & Analysis · Teamwork · Mockups · Multi-task & Handle High-volume Workloads · Databases · Qualifying Candidates · Feedback Management</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="exp-img">
+                            <a href="https://www.linkedin.com/in/rahulqwe/" target="_blank"><img src="./assets/images/exp-img.webp" alt="work-img" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Skills secction -->
+            <section class="container" id="skills">
+                <h2 class="fs-1">Skills</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+                        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                    </div>
+                    <div class="skill-container mt-5 col-12 col-lg-6">
+                        <!-- html -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/html.webp" alt="html" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-html" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                    <strong class="custom-progress-bar">HTML</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- css -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/css.webp" alt="css" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-css" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
+                                    <strong class="custom-progress-bar">CSS</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- bootstrap -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/bootstrap.webp" alt="bootstrap" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-bootstrap" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <strong class="custom-progress-bar">Bootstrap</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- sass -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/sass.webp" alt="sass" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-sass" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 97%;">
+                                    <strong class="custom-progress-bar">SASS</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- js -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/js.webp" alt="js" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-js" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <strong class="custom-progress-bar">JavaScript</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- node -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/node-js.webp" alt="node" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-node" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                    <strong class="custom-progress-bar">NodeJS</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- react -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/react.webp" alt="react" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <strong class="custom-progress-bar">ReactJS</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- database -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/database-storage.webp" alt="db" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-node" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <strong class="custom-progress-bar">MongoDB</strong>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!-- DSA -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/dsa.webp" alt="dsa" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <strong class="custom-progress-bar">DSA</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Microservices -->
+                        <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+                            <img src="./assets/images/skills/microservice.webp" alt="microservice" class="img-fluid rotate-skill" width="40px">
+                            <div class="progress w-100" style="height: 20px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <strong class="custom-progress-bar">Microservice</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- projects section -->
+            <section class="container" id="projects">
+                <h2 class="fs-1">Projects</h2>
+                <div class=" mt-5 d-flex justify-content-center align-items-center flex-wrap gap-4">
+                    <!-- chatGPT-clone -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/chatGPT-clone"><img src="./assets/images/projects-img/chatGPT-clone.webp" alt="chagpt-clone" class="img-fluid card-img-top"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">ChatGPT-Clone</h4>
+                            <p class="card-text">Designed a ChatGPT clone using HTML and CSS, focused purely on UI/UX. Recreated the core layout and visual flow of the original interface with responsive styling. Emphasized clean design, intuitive user interaction, and pixel-perfect alignment to mimic the real-world product.</p>
+                            <a href="https://github.com/Rahul-R79/chatGPT-clone"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- W3schools-Clone -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/w3Schools-Clone"><img src="./assets/images/projects-img/w3-schools.webp" alt="w3-schools-clone" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">W3schools-Clone</h4>
+                            <p class="card-text">Built a static clone of the W3Schools website using HTML and CSS, replicating its clean layout and educational content structure. Focused on responsive design, intuitive navigation, and modular content sections. The project highlights front-end design skills with attention to detail and user experience.</p>
+                            <a href="https://github.com/Rahul-R79/w3Schools-Clone"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- petadoption-website -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/NaadintePaws"><img src="./assets/images/projects-img/petadoption-website.webp" alt="petadoption-website" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">Petadoption-Website</h4>
+                            <p class="card-text">Developed a dynamic pet adoption website using React and Framer Motion, focused on smooth user experience and engaging animations. Implemented component-based architecture with responsive design to ensure accessibility across devices. The project emphasizes modern UI flow, interactive transitions, and a clean, animated frontend experience.</p>
+                            <a href="https://github.com/Rahul-R79/NaadintePaws"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- wibbitz-clone -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/Wibbitz-Clone"><img src="./assets/images/projects-img/wibbitz-clone.webp" alt="wibbitz-clone" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">Wibbitz-Clone</h4>
+                            <p class="card-text">Designed a front-end clone of the Wibbitz homepage using HTML and CSS, focusing on layout precision and modern aesthetics. Recreated interactive sections, CTA components, and responsive design patterns to mirror the original site’s feel. Showcases ability to translate complex UI designs into clean, maintainable code.</p>
+                            <a href="https://github.com/Rahul-R79/Wibbitz-Clone"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- calore-tracker -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/Calorie-Tracker"><img src="./assets/images/projects-img/calore-tracker.webp" alt="calore-tracker" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">Calore-Tracker</h4>
+                            <p class="card-text">Built a responsive Calorie Tracker app using React and JavaScript to help users log and monitor their daily intake. Designed an intuitive UI with dynamic state management for real-time updates and data handling. The project demonstrates core front-end skills including component logic, state handling, and clean visual layout.</p>
+                            <a href="https://github.com/Rahul-R79/Calorie-Tracker"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- ToDo-App -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/ToDo-Application"><img src="./assets/images/projects-img/todo-app.webp" alt="todo-app" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">ToDo-App</h4>
+                            <p class="card-text">Created a functional To-Do application using React and JavaScript, focusing on task management and user productivity. Implemented key features like add, edit, delete, and filter with efficient state management. The project showcases front-end fundamentals, clean UI structure, and interactive user experience.</p>
+                            <a href="https://github.com/Rahul-R79/ToDo-Application"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- weather-tracker -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/Weather---Application"><img src="./assets/images/projects-img/weather-tracker.webp" alt="weather-tracker" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">Weather-Tracker</h4>
+                            <p class="card-text">Developed a Weather Tracker application using React and integrated a third-party Weather API for real-time data. Displayed dynamic weather conditions including temperature, humidity, and location-based forecasts. The project highlights API consumption, responsive UI design, and efficient data rendering in a front-end environment.</p>
+                            <a href="https://github.com/Rahul-R79/Weather---Application"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <!-- stopWatch -->
+                    <div class="project1 card">
+                        <a href="https://github.com/Rahul-R79/Stop-Watch"><img src="./assets/images/projects-img/stopWatch.webp" alt="stopWatch" class="img-fluid"></a>
+                        <div class="card-body">
+                            <h4 class="fs-3 card-title">StopWatch</h4>
+                            <p class="card-text">Built a functional stopwatch using React and JavaScript with start, stop, and reset capabilities. Focused on accurate time tracking and minimalistic UI for a smooth user experience. Demonstrates proficiency in managing component state, intervals, and user interactions in a lightweight app.</p>
+                            <a href="https://github.com/Rahul-R79/Stop-Watch"><i class="fa-brands fa-github" style="margin-right: 5px; color: #000;"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact section -->
+            <section class="container-fluid" id="contact">
+                <h2 class="fs-1">Contact Me</h2>
+                <div class="row mt-5">
+                    <div class="contact-img col-12 col-md-6">
+                        <img src="./assets/images/contact-image.webp" alt="contact-us" class="img-fluid">
+                        <div class="tab-icons">
+                            <a href="https://github.com/Rahul-R79"><i class="fa-brands fa-github fa-shake"></i></a>
+                            <a href="mailto:rahul.devworks@gmail.com"><i class="fa-solid fa-envelope fa-shake"></i></a>
+                            <a href="https://www.linkedin.com/in/rahulqwe/"><i class="fa-brands fa-linkedin fa-shake"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-shake"></i></a>
+                        </div>
+                    </div>
+                    <!-- contact form -->
+                    <form action="#" class="col-12 col-md-6 mt-5 mt-md-0 needs-validation" id="contact-form" novalidate>
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <label for="InputfirstName" class="from-label">Name</label>
+                                <input type="text" class="form-control" name="name" placeholder="FirstName" id="InputfirstName" pattern="[A-Za-z]+" required>
+                                <div class="invalid-feedback">
+                                    Enter your name
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <label for="InputlastName" class="from-label"></label>
+                                <input type="text" class="form-control" placeholder="LastName" id="InputlastName" pattern="[A-Za-z]+" required>
+                                <div class="invalid-feedback">
+                                    Enter your last name
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputEmail" class="from-label">Email</label>
+                                <input type="email" class="form-control" name="title" placeholder="Email Address" id="inputEmail" required>
+                                <div class="invalid-feedback">
+                                    Enter you email address
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputText">Sent a message</label>
+                                <textarea name="message" class="form-control" id="inputText" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- footer section -->
+    <footer>
+        <h5>&copy; Handcrafted by Rahul</h5>
+    </footer>
+    <script src="./js/graph.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/email.js"></script>
+</body>
+</html>
