@@ -222,6 +222,42 @@ header{
 .project1 a{
     color: #08f;
 }
+/* services section */
+#service{
+    margin-top: 100px;
+}
+#service div h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#service div img{
+    border-radius: 8px;
+    backface-visibility: visible !important;
+	animation: flip 5s ease infinite;
+}
+@keyframes flip {
+	0% {
+		transform: perspective(900px) rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	40% {
+		transform: perspective(900px) translateZ(10px) rotateY(360deg);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: perspective(900px) translateZ(10px) rotateY(10deg) scale(0.8);
+		animation-timing-function: ease-in;
+	}
+	80% {
+		transform: perspective(900px) rotateY(200deg) scale(.95);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: perspective(900px) scale(1);
+		animation-timing-function: ease-in;
+	}
+}
+
 /* contact section */
 #contact{
     margin-top: 100px;
